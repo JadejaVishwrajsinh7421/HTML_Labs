@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: rgb(201, 169, 127);
+            margin:10px;
+            border:25px solid #179abb; 
+            width: 50%;
+            height: 150px;
+            padding: 10px 20px;
+            border-radius: 15px;
+            }
+    </style>
+</head>
+
+<body style="background-color: rgb(141, 203, 18);">
+    <form action="./table4.html" method="post">
+        <table align="center" cellspacing="3" width="100%" >
+            <tr border="4">
+
+                <td><label for="fname" required style="color: #450970;">First Name</label></td>
+                <td><input type="text" name="fname" id="fname" required placeholder="please enter fname"></td>
+                <td><label for="lname" required style="color: #450950;" >Last Name</label></td>
+                <td><input type="text" name="lname" id="lname" placeholder="please enter lname"></td>
+            </tr>
+
+            <tr border="4">
+                <td><label for="E-Mail" required style="color: #450950;">E-Mail</label></td>
+                <td><input type-="text" name="email" id="E-Mail" placeholder="please enter e-mail"></td>
+            </tr>
+
+            <tr border="4">
+                <td><label for="confirm_password" required style="color: #450950;">Password</label></td>
+                <td><input type="text" name="confirm_password" id="confirm_password" placeholder="please enter password"></td>
+                <td><label for="password" required style="color: #450950;">Confirm Password</label></td>
+                <td><input type="text" name="password" id="password" placeholder="please enter confirm password"></td> 
+            </tr>
+
+            <tr border="4">
+                <td><label required required style="color: #450950;">gender</label></td>
+                <td><input type="radio" name="gender" id="a" for="gender">male
+                <input type="radio" name="gender" id="b" for="gender">female</td>
+                <td><label for="hobbies" required style="color: #450950;">Hoobbies</label></td>
+                <td>
+                    <input type="checkbox" id="hobby1">
+                    <label for="hooby1">Music</label>
+                    <input type="checkbox" id="hobby2">
+                    <label for="hooby2">Sports</label>
+                    <input type="checkbox" id="hobby3">
+                    <label for="hooby3">Travel</label>              
+                </td>
+            </tr>
+
+            <tr border="4">
+               <td><label for="income" required style="color: #450950;">Income Sources</label></td>
+               <td><select name="income" id="income">
+                    <option value="select">select option</option>
+                    <option value="Empolyed">Empolyed</option>
+                    <option value="UnEmpolyed">UnEmployed</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="UnderGraduate">UnderGraduate</option>
+                    <option value="Masters">Masters</option>
+                </select>
+                </td>
+                <td><label for="salary" required style="color: #450950;">Income (btw:0 to20k)</label></td>
+                <td><input type="range" id="salary" name="salary" min="0" max="20,000" step="2" oninput="this.nextElementSibling.value = this.value"/> 
+                <output>20000</output></td>
+
+
+            </tr>
+
+            <tr border="4">
+                <td><label for="profile" required style="color: #450950;">Upload Profile Picture</label></td>
+                <td><input type="file" name="profile" id="name" readonly="chose file"></td>
+                <td><label for="age" required style="color: #450950;">Age</label></td>
+                <td><input type="number" step="1" name="age" id="name" placeholder="please Age"></td>
+            </tr>
+            <tr border="4">
+                <td><label required style="color: #450950;">BIO</label></td>
+                <td colspan="3"><textarea rows="2" cols="60%"></textarea></td>
+            </tr>
+
+
+            <tr align="right" colspan="2"><td><button type="submit">Create</button></td></tr>
+          
+        </table>
+    </form>
+</body>
+
+</html>

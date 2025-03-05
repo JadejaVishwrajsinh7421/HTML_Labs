@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #logo {
+        height: 7%;
+        width: 7%;
+        float: left;
+      }
+
+      .top {
+        float: right;
+
+        color: blue;
+        text-decoration: none;
+        padding: 40px;
+      }
+
+      #sidebar {
+        background-color: red;
+        text-align: center;
+        display: inline-block;
+        height: 260px;
+        width: 200px;
+      }
+
+      .nav {
+        height: 10vh;
+      }
+
+      .red {
+        border: 2px solid rgb(127, 127, 55);
+        margin-bottom: 5px;
+        padding: 10px;
+        text-decoration: none;
+      }
+
+      .im {
+        height: 60px;
+      }      
+
+      .pic {
+        display: inline-block;
+        margin: 10px;
+      }
+
+      #ft {
+        background-color: blue;
+        color: aliceblue;
+        text-align: center;
+        height: 30px;
+      }
+      .right {
+        width: 60vw;
+        display: inline-block;
+        position: absolute;        
+      }
+
+      .main{        
+        margin-right:  1px dotted black;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div style="border-bottom: 1px solid black" class="nav">
+      <div>
+        <img
+          src="https://wallpaperaccess.com/full/2610290.jpg"
+          alt="check your internet"
+          id="logo"
+        />
+      </div>
+
+      <div><a href="" class="top">Home</a></div>
+      <div><a href="" class="top">About</a></div>
+      <div><a href="" class="top">Contact</a></div>
+      <div><a href="" class="top">Login</a></div>
+    </div>
+
+    <div class="main">
+      <div id="sidebar">
+        <div class=""><a href="">Sidebar</a></div>
+        <div class="red"><a href="">Home</a></div>
+        <div class="red"><a href="">Placement</a></div>
+        <div class="red"><a href="">Recruitment</a></div>
+        <div class="red"><a href="">Faculty</a></div>
+        <div class="red"><a href="">News</a></div>
+      </div>
+
+      <div class="right">
+        <div class="row">
+          <div class="pic">
+            <img src="https://www.pexels.com/photo/man-in-black-and-white-polo-shirt-beside-writing-board-159844/" alt="can not load" class="im" />
+            <br>
+            Arjun Bala <br>BE.Mtech(CSE)
+          </div>
+
+          <div class="pic">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fhacker&psig=AOvVaw3jsPzutgBGOCX4Sb2vSBah&ust=1738212656366000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDEifWQmosDFQAAAAAdAAAAABAE" alt="can not load" class="im" />
+            <br>
+            Firoz Shreyasiya <br>BE,ME
+          </div>
+        </div>
+
+        <div class="row">
+          
+
+          <div class="pic">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMVFRUXGBgXFRUVFRUVFRUVFRgYGBUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGC0fIB0tLS0rLS0tLS0tLS8tLS0tLS8tLSstLS0rLSstLS03Ky0tLS0tKy0tLS0tLS0rLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgADBAUGBwj/xABEEAABAwEEBgcEBwYFBQAAAAABAAIDEQQFITEGEkFRYXEigZGhscHwBxNS0RQyQnKSouEVIzNTYoIWssLS8SQ0Q0Rz/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAEDAgT/xAAnEQEBAAIBBAEEAgMBAAAAAAAAAQIRAxIhMUETIjJRYXGxgZGhQv/aAAwDAQACEQMRAD8A8bUojRGiyaloijRQBAAFKJwFKIEooAnIUaFQtEaJqI0RCUTAI0TAIFIUAT6qsbGgqDVYyKqvEdM0HE8l1Ilqox0zSGicRE5ImBdac7Va43IF/Bba13DJEwPeMwDTaKgGh40K1zpGDDUP4ge6iXHRtSXBTBWgxHY9vYQnNla76jw7hk7sNCVNRdqDGl1U0kbmGhqCo2beOsLmxZSFqGqry2oqEpYuVVUQordVQNRVdEKK3VQogSiBCtog5qCuilFZqqaqBaKUVlFNVBVRSisopqqCsBGiailE2FopRMAiAgUBGicNRogQtStCtIQaE2BREBPqo6qCsBOAmDVdFFVUJHFU4LcWW7QBVwqd25ZF3WDVxIx8FtY7PsOZ7lpjjtncmkiu4uOAqT3c11NwaEtkcNdrpD8LcGjmf1C7DRfQzoiW0dBmeqcHEb3E/VHfyXRS33FEPdWZo5gUaOO9x4nvW8kx9b/pnd1wF86Osa73TWNGpg7VpTWOYw3Zc6rQwaN1njiaKuc4YcK7evzXoc4YxjpJDRrQXOcdwxJKq0FiGrJeMw1daohacw0YCnHZzLlxLcstniOhnhstlja2SNj3AVJ1GuJO0ku9ZLmrVft3ONHWSIitDWGIrR6a38XF1Di7uC8/fO4nM9q7zzmF15vtJx9XevUX2K5JsHWaNh3tY6I9sZC11q9ltgtAJslpfGdjXFszOzB46yVwDbW9v2isyy329uJ2bRgQufkwvmL8WU8Vffvs+vCytJ1BaIh9qOsgA+4em3qw4rj3RA5dE/C7Lqd5HtK9cuHTqRtAXa4wweel1Oz8Vub0uK772aXUENo+NoAcT/W0YSDjnxXXx7m8e6ddx+6PBMWncdoPmr43B3PctzpNo5PYpPdWhuB/hytqWubvado4ZhaN0RB7wRt3EFYZYtZksLUNVWxO1hx8eKhasr2aRTRCitohRRSUSvCu1Ur2oEAU1VYApTFAtFA1WBqOqgqohqq7UQogxwFKJ2hSigUBGiYBGmCABGiYBEBAhCDArHBRjUNIApRWNCgCoEbFv7mu+uJWsscWZK6q65WtbjxWmMcZVlvjDAPiOQ8+S7jQ3RpsTPpdp3azGu2DMPcNp3D9FrNB7h+kSmaUdBhyORP2Wchmf1Ww000grVjT+7Z+d2/lu7V6scddv9smPpNpMXmmTPst38Xbz4LR2W9gMa+ty5K/L0NaVxOPJv6rBZbjntwAG8lZ5577Twundzzvt80dijNGVElocNjGmrW+fPVW10rvgMaIo8GRgNAGVaUA6vmqtHrJ+z7GZH/9xP0jXMVFQOqtTzA2LjbztRe/1nvXVvx4/uuMZ15b9Rr7dMXkk5rEjjxWUW1QiZ5rybehjuiVLo8FsXMVLo8E2MOpC291X05hFScDg4HELWPYkIXWOdxu4lm3r93XhBeUBstqAJI6LsAa0wew7HDsK8m0l0fksM5glxacYpPsuaTgR5jYVlXTeLmEY0pkdxGK9Pls0d82ExOoJ4xVh3PpgfuupQ/ovTuZzfthZ8d/TxE2cg12hWau1be7bKS58EgpLHUEHOgNCDxHgQntV2kAmmWawyxa43VaEtS0WRIz1ySOasWqsBBzVbq4pZAik1UQ3FPREDFArWo6qtDVKIE1UpjV+qhqoMBoURaiFBKIgI0RAQBEBNRFoQIQiwIvTNHigYBPGxANWRZWVI5qwp9YCjes+Xh3rcXBG6aTVArQgAb3HILlbRaqvedlSByGA7gvVPZBdms9jyMgZTzyZ4gr08c7/wAMMnd3i8WGxthZg9wpUbz9d/kOrcvJr9t4OsSegzE8fRwXY6b3iXyPIODeg3kK49tSvJdJLbV3ugcGmruLt3V4ngu+S6nT+fJjPbXzWkveXHMns3Bd17NbgFom97KP3UPSNcifsjz5Arjbiu188ga0E5VptJNGgcSvXrc1tisrLKw9Jw1pSOYr4U5BMMf/AFfEcZ31PNarSy+TM9zgcMQwcKZ9ea5auPYr7VLrH1wWOzNebPO5XbbHHpmoJCMYxKgUYc1w6RzVU8YK/VKUxFBhOaqntWcYD65qqWPZxQYGS67Q2+zBK19cKgOG9pz+a5l0Bor7HVrgtMMtXbnLHc07T2pXZ7i0Q3jEOjJQSUyLgP8AUzvCrNmDhUYtIw4grfxt+m3TJC7F8Yq3nH0mn8NQtHom7Ws7Qc2VYerLuIXoymu7z43tr8OHvaye7kc3ce44juote9uK7HTmyUeyQfaaQebf0d3LkpG4heTKar1Y3cVhqrmCvAxSTjA9fguXQNRAxRATgYoqAKUxTAIj13qgNChYiEURrWhGiZoxUooBRGilEwUUKJmhQhEIFfkmaFHjBM1A4WTY3UqdwJ7BXyWPRX/+OT7j+8ELrHylcwCaL6T9mtmEUEjvhDWj+xpJ8l84QDpN5jxX03oqKWKY/wD07mBezCdr/h56810vvH3Uev8AaJowb3EHHkM+zevMSampxO35rc6V3v8ASZyWn92zox8R9p/We4BaULjO7qun0U0mNiILYY3mpNXl2Z24HYMFs7ZpsZXFz4GVOfSd1ALh9ZEPTqutJqb2646RRn/12/iKDb+j/kD8R+S5MPTteuNLuusiviNzgBDUk0ADsST1Lf8A7MAIFMTmK1pwrtWq0AusHWtUg6LMIwdr9p6l0NstwgidM6msejGN7iM+QxK2+GdMyvv+k67vTCmZDG7UIqRn0iOltHrismCGBw+r+Z3zXFOtpJqSs2zXiQsey7rtorrgIy8fmnFwQE1pj1/NaCzXngBVbWyXhxRN1ku0dhyoO/5qp+j0WwePzWXHbK7VkMlBUXdZuilncyXUZq6jv4msCeiBjTHAnLrXO3a33c08XwEDrq4HwC31w2utrAbkGuHgT4LSXmdS3Wj7zv8AN+q9XTejuy39bB0wbWIcHeIP6LhZBku50hlDoDvqFxMwXj5Z3enj8K2tySTjA8j4K2iWUZ9ayaFATINCZA7QjqqMCLQgWiCcBBUa5uaKIUooBTBFEqIIAmaEE7FFK8YIgIuCZoQRZEYq143tcO0KhXWd9F3j5c3w5wGmI5r3potVouuaGwhpkkcA5znhmpC9nTLTtcQNX+4nYvCZY6EjcSOzBe6+xq8w9nuyc42nrj6JHeexezD7co8+Xp5b/gS3fy2HlI1N/gK3/wApv42rtNIJJoXvaPsuLc9xotFLf1pH/LV1fil1dprO+GkfoRbRnEPxt+ax26K2oktEeIzxA7Cc89i3k2kNr9aqxpL8teYp+VcW8P5v/FkzYP8Ag+1/yx+NvzRj0StNQHNDRUVOu00G05rK/b9s4djVBfVrPw8+ip1cX7XpydnHqsYyFmDGCnPiub0hstotEtGs6DOiyrhj8Tuug6gEkd5PGZB6vkscXvaA46rGkV2k/NS80zvc6LJ2WQaJ2k/ZHaFbeOi1os0JtDwPdtLWk1FQXEACm3PZVba5bZaZHNYI21cQAATmTzWD7UL91pGWGN1Y7MT7wjKS0EUef7QS0cS5dWYdO45+renPMtnFdZZLotYa13usHAEVewOoRUVaThyXM6K2MPkMrxWOKjiDk95/hsPAkEng0jaF0F46S2gGrWsdxNd3NTCYec1u/TYts9obnEfxR/7k/wBLfGCXgtwwqW7eRXLSaVWv+VH+b/cqf2haJ3gSNaBXZX5q28U8Exy9vRtBKuna47Q49XorR6ZWylrmoc3OH5l1Ps/ioZJXfVjb+p7mrzS/7R7y0Odt28zUnxXeWX0OJPrrLtlqrHSu3wWlmWXM7AD16wWLMF4+SvThOytLJ5eSsCQhZuwYMOryThuKWMYDl5KwKKZrUxCDQjTFAhQNU5CVBrmBEotRVQrkQo4IgKKiZuSCdowQAhFqhGXrYmAUE2INOCKXYrErXW8UeTvx8j4LsvZTfXuLQ0E4B2P3H4O7M+tcpb46jlj1HPyWNd1rMUjXjYceRz9cF68b7YWPd/aLd1JNcZSCv9wwPdQrzO01FV63dEwvKwAAgyRgU40HRPWMOpedXzYC0nChyI2gjOq55sfbrjy9OdlKgKsmYqgvM1IXJo3JSixBZrrJsbKkLFa1dJoxdLppGRtzccTubtPYrjN3SW6jaR24XfY5Laae9dWGyAjOVwOtJTc0AnqptC8lYHOcAKuc40G1znOPe4k9pXSe0bSBtqtWpCf+ns491BTIgU95Jx1nDPc1qr0MslNa1u+xVkPGUjpO/sa7te3cvVJ6ef8AbbOiEETYGkEtr7xwydK6muQdoFA0cGDetfNLh63KyV2JWPJ67FhyZ7rbHHUVud5LZ3VDUgrAhiJK7jQ+5feyNaR0W0Lz/p61ePG5XUXO9M26CSYWO7Hk4Olrzoc/yj8y8fbPrPLjtJK7L2raQB8ggjPRbhhlTaes9wXCWTE0Xp5b31PTz4Ttu+2xL6kcvXrikecEIjWp7OSjhgvJne70YzsjUHDFEKP2Lh2WIYDknCWLJO0KBwUUoTDNArsktUXosCuxgNUUaooA5EKFEBAFYAkorUAOxHb1oUx7UygU+uxIfkrCEhVFVowoe3iFrbVDqnDI4g7x6wW5e2oosHVB/duNNrTuO7kVvx5emWcdT7L9LTZJhG49E4CuRBzb5hesaVXM20R/SoOkCKvAzI+Km8bQvm+RhadoIPWCF6d7NPaC6EiGY1acMTnxH9XrlvO81WfjuwbysNDgtW6Oi9g0g0djtDfpFlo4Oxcwb9tBsPBedW27S05fovNycdx7tsc9uec1BoWVNBRJFEsna6xWfWK6XSG8P2ddxLTS02wGOP4o4B/EkrsJqAPvA7Cm0WukPf0yGxtaZJXnANjbi4k7MF57prpAbfa3z4iMUZCz4IWYMFNhOLjxcV6OLHU2wzu7pqrBY3zSMhjFXvcGtGyp2ncBmTsAK762akbWwxfw4hqMO1218h4ucXO6wNiwtCbu91A+1uHTl1ooOEYNJpRzP7scnq2bEq8mXTj/ACYTdYThioI6rJjs5JW6ui53yODGN1nHsHEnYsMcbldRtbJGPct1Oe4NaKuNKcOJXa6R3lFddk9201lcOkdtSPE9w6lZbJ4LpgL5HAzEDjTcAPAda8S0hv2S1ymSQnM6oJrSu/ivdJOLH915bfkv6UWm1ukeXuNSTX9FmwN1W1ObsuDd/WsO7bNrdN31B+Y/CFnwkvfrHZlyWGV13aSbZETaABQ7QiCiV5rW5Ai/Yo3JR/rtQCPD1xTjNKw4dZ8SjXFBYFDn63FRqhPrtUUHoVRkRZkqMEIEKUURAKKDkQgIKuVNFcpQDmpRBufreiioRgqyrScEtEQFjWuHWxGYWWQhtXUuksa7CQUdg8YAnaPhd81gSMLTQggjtC2trsv2m5rHbK141JBlk7aP04L0Y5Ssbjp1ehXtElsjg2Qksy1s8P627RxGK9bimsV5MDmuayQ5OBFD15HkaFfOVosTmY/Wb8Qy6xsTXfeUsDtaJ5adtMjzBwK1mXpxp7Nfehc0eOprt+JmPa3MLRWW68ctqw7i9rVohAbICQPho4fgd9XqK6uD2s2Jw1pomuIxwa4GoxoNZvmuLxYV315NH7SLyFjsjbBGaTWgCS0EZshB6Edf6iMRuB+JedaN3O62WiOBpoHGr3/y424yPPJoPXQbUt+Xo+1WiW0ynpyOLjuaMmsHBrQGjgF6V7LLHZIbJJPPKGyznUoC3WZCw/Vxy1nCp4Nau8ceq6Z26m1l6AE6sbdWNjQyNvwxsADR58yVhWe7XPNGtLjuAqurnva6IjV7w47nyMHdreS1V5e1ezQtLbLE2uzVb36zgB3FMuGW7yqzlsmsY2l16FkD3loeImbqjWPDh3rE0i06st3tMNkGs+mY+tzJOXXjwXmt/wCnVrtROs8sadjSa03a+fZRcwKk7ST1knzKsymP2pZcvubG+r5ltUhkmdU7BjRvL5quw2MvxODBmd9NjeKsgu8NGtL1MBx/uOxXvlLyGtFAMABkFlb7ruRY+TXoxoo0ZBZkbKYJIIQ0cVdTFefPPbbHHRQipVRcOiNTnJJRMTggEeXWfFFoSx5Hn8k4OKKcKIFHcgj8vXBLVGTakQYqhRqlVRCiEpTNQRWgqsZqwBRRYcVAFGoNKB3BIE5QCghCgCZEBVFYCxrVZA7EYFZhClFZdFjTNkfEdoVobDJn0Hb25dbcuyi2M0YdgQsCa7vhK2x5PyzuCt9yynGPVkH9JAd+E+VVgTwvYaPa5v3mlvis+J8ke9bKy6QSNFK14HEdi1mUZ2OaD1CBuC62W/mH60MTjxjYfELGlvWOnRghad4iYD4J2NObbuHYFkx2CV2UbuZGr/moti683DI05Kh1qc7aVOpdBHdYH8R4HBuJ7TgO9XC0MjqI20/qzcesqhlme4/NZ0FgAxdiVxeSR1MWG1jpDXYtnBCG5I0onCxyztaTHSBM7NBErh0UpggUaIKwUxy9cEidxVCM28/IJyVWzbz8giT660FoKlUAVKKBnbVWmKSqooIwShRRVBRCiiADNWNKiiiiFGhBRA6WuKCigtBRCKiAFRRRBHFGiiiAUCU2dp2BRRXaK32Fh2d6X9ns4qKK9V/JqGbYWblcyFoyAUUUtq6gHNSvrrUUUCOVgRUQFGqCiBSjVRRBWE2xRRUBoxKBUUVDgIlRRciE4qsBRRB//9k=" alt="can not load" class="im" />
+            <br>
+            Harsh Kansagra <br> L&T PVT LTD <br> 4.5 Lac
+            </div>
+
+          <div class="pic">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcio.eletsonline.com%2Fnews%2Ftcs-work-from-home-not-cost-effective%2F65228%2F&psig=AOvVaw1O0nMTijMVdeLnCr7d09WE&ust=1738213073249000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiG8riSmosDFQAAAAAdAAAAABAI" alt="can not load" class="im" />
+            <br>
+            Shyam Kantesariya <br> Tata Consultancy Service <br> 3.2 Lac
+          </div>
+          <div class="pic">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.economictimes.com%2Fnews%2Fnew-updates%2Fril-agm-2024-date-time-when-and-where-to-watch-reliance-industries-47th-annual-general-meeting-live-stream-online%2Farticleshow%2F112865569.cms&psig=AOvVaw28UvqabFbolPsFFuY06E30&ust=1738213123565000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj_ytKSmosDFQAAAAAdAAAAABAE" alt="can not load" class="im" />
+            <br>
+            Jeet Dhamecha <br>Reliance Industry LTD <br>5.0 Lac
+          </div>
+          <div class="pic">
+            <img src="https://www.google.com/imgres?q=infosys&imgurl=https%3A%2F%2Fwww.infosys.com%2Fcontent%2Fdam%2Finfosys-web%2Fen%2Fabout%2Fimages%2Fesg-policies.jpg&imgrefurl=https%3A%2F%2Fwww.infosys.com%2Fabout.html&docid=zJj4homqKCaUkM&tbnid=keQvXZ-pL8UP1M&vet=12ahUKEwj0g8bkkpqLAxUsT2wGHXCzBaQQM3oECGgQAA..i&w=768&h=768&hcb=2&ved=2ahUKEwj0g8bkkpqLAxUsT2wGHXCzBaQQM3oECGgQAA" alt="can not load" class="im" />
+            <br>
+            Harsh Maniar <br> Infosys <br>5.0 Lac
+          </div>
+          <div class="pic">
+            <img src="https://www.google.com/imgres?q=bsnil&imgurl=https%3A%2F%2Fwww.presentations.gov.in%2Fwp-content%2Fuploads%2F2020%2F06%2FPreview-3.png&imgrefurl=https%3A%2F%2Fwww.presentations.gov.in%2Flogos%2Fbharat-sanchar-nigam-limited-bsnl%2F&docid=Fnx-VTiuPNptXM&tbnid=NDFEZazLfRughM&vet=12ahUKEwiEkIWCk5qLAxU1SGwGHaJ0MUYQM3oECBcQAA..i&w=1000&h=750&hcb=2&ved=2ahUKEwiEkIWCk5qLAxU1SGwGHaJ0MUYQM3oECBcQAA" alt="can not load" class="im" />
+           <br>
+           Anand Dabhi <br>BSNL <br>5.5 Lac
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ft">
+      <footer>&copy; Darshan University-Rajkot</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics animation</title>
+    <style>
+        #animation{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: backwards; /*it is is to fill previous color*/
+            /* animation-play-state: running; */
+            animation-direction: reverse;
+        }
+        @keyframes move {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: yellow;
+            }
+            0%{
+                margin-top: 0px;
+                margin-left:0px;
+                background-color: red
+            }
+            25%{
+                margin-top: 0px;
+                margin-left:500px;
+                background-color: rgba(20, 207, 95, 0.562);
+            }
+            50%{
+                margin-top: 500px;
+                margin-left:500px;
+                background-color: rgba(119, 119, 214, 0.884);
+            }
+            75%{
+                margin-top: 500px;
+                margin-left:0px;
+                background-color: aqua;
+
+            }
+            100%{
+                margin-top: 0px;
+                margin-left:0px;
+                background-color: yellow
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="animation"></div>
+</body>
+</html>

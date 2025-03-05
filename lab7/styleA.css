@@ -1,0 +1,45 @@
+
+body{
+    box-sizing: border-box;
+}
+#Page{
+    background-color: aqua;
+    color:rgb(1, 7, 13);
+    height: 500px;
+    padding: 20px;
+}
+.header{
+    background-color: rgb(79, 8, 8);
+    color:white;
+    height: 30px;
+}
+.content{
+    background-color: rgb(234, 116, 19);
+    height: 60vh;
+    padding: 20px;
+}
+.footer{
+    background-color: rgb(57, 18, 112);
+    color:white;
+    height: 20px;
+}
+.entry{
+    background-color: black;
+    color: white;
+    margin:20px;
+    height: 20px;
+
+}
+.sidebar{
+    background-color:black;
+    color: white; 
+    height:100px;
+    float:right; 
+    width: 40%;
+    margin:20px;   
+}
+.entrywrap{
+    float:left;
+    width: 55%;
+
+}
