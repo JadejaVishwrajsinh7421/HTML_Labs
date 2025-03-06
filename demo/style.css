@@ -1,0 +1,152 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Container to hold sidebar and main content */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar h2 {
+    color: #1db954;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.sidebar .nav-links {
+    list-style-type: none;
+}
+
+.sidebar .nav-links li {
+    margin: 20px 0;
+}
+
+.sidebar .nav-links li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar .nav-links li a:hover {
+    color: #ffffff;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Playlist section */
+.playlist {
+    margin-bottom: 40px;
+}
+
+.playlist h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.playlist-container {
+    display: flex;
+    gap: 20px;
+}
+
+.playlist-item {
+    text-align: center;
+}
+
+.playlist-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.playlist-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Now Playing section */
+.now-playing {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #181818;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.track-info {
+    display: flex;
+    align-items: center;
+}
+
+.track-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.song-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.artist {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+}
+
+.controls button {
+    background-color: #1db954;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.controls button:hover {
+    background-color: #1ed760;
+}
+
+.controls button:disabled {
+    background-color: #333;
+    cursor: not-allowed;
+}
