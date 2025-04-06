@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .container {
+            background-color: rgba(95, 95, 188, 0.6);
+            width:auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Student Registration</h1>
+        <form class="mt-4">
+            <table class="table table-bordered " >
+                <tr>
+                    <td><label for="name" class="form-label">First Name</label></td>
+                    <td><input type="text" class="form-control" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile" class="form-label">Mobile No</label></td>
+                    <td><input type="text" class="form-control" id="mobile" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" class="form-label">E-mail</label></td>
+                    <td><input type="email" class="form-control" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="address" class="form-label">Address</label></td>
+                    <td><textarea class="form-control" rows="3" id="address" name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="nationality" class="form-label">Nationality</label></td>
+                    <td><input type="text" class="form-control" id="nationality" name="nationality"></td>
+                </tr>
+                <tr>
+                    <td><label for="birth" class="form-label">DOB</label></td>
+                    <td><input type="date" class="form-control" id="birth" name="birth"></td>
+                </tr>
+                <tr>
+                    <td><label class="form-label">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="degree" class="form-label">Select Degree</label></td>
+                    <td>
+                        <select class="form-select" id="degree" name="degree">
+                            <option value="">Select option</option>
+                            <option value="btech">B.Tech</option>
+                            <option value="mtech">M.Tech</option>
+                            <option value="phd">PhD</option>
+                            <option value="bsc">B.Sc</option>
+                            <option value="msc">M.Sc</option>
+                            <option value="bba">BBA</option>
+                            <option value="mba">MBA</option>
+                            <option value="bca">BCA</option>
+                            <option value="mca">MCA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cpi" class="form-label">CPI</label></td>
+                    <td><input type="text" class="form-control" id="cpi" name="cpi"></td>
+                </tr>
+                <tr>
+                    <td><label for="university" class="form-label">University</label></td>
+                    <td><input type="text" class="form-control" id="university" name="university"></td>
+                </tr>
+                <tr>
+                    <td><label for="year" class="form-label">Passing Year</label></td>
+                    <td>
+                        <select class="form-select" id="year" name="year">
+                            <option value="">Select year</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
